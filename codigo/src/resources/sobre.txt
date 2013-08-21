@@ -1,0 +1,12 @@
+Quebra Cabeça de 8 peças
+
+Este jogo é um quebra cabeça de movimento onde existe uma figura embaralhada e um quadro em branco. Seu objetivo é desembaralhar a imagem, apenas deslizando as peças utilizando o espaço em branco.
+
+Para resolver o problema foi implementado um algoritmo A* (A Estrela), onde para cada nó gerado é calculado um valor que estima a sua distância em relação ao estado final através de uma função heurística, foram implementados o método de Manhattan onde são somadas as diferenças de cada nó em relaçao com sua posição verdadeira, e o número de nós que já estão em posição correta.
+
+Após a escolha do melhor nó o processo é repetido até que a solução seja encontrada.
+
+
+Versão 1.0
+Produzido por Hidenove Ltda.
+Todos os direitos reservados.
